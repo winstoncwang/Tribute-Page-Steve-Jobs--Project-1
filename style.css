@@ -5,7 +5,7 @@ body{
     padding:0px;
 }
 #main{
-    margin:0px;
+    margin-top:80px;
     border-radius:12px;
     padding:px;
 }
@@ -26,6 +26,11 @@ p{
   padding:0px 0px 8px 0px;
   margin:0px;
 }
+#steve_jobs{
+  text-decoration: none;
+  color: #575757;
+    
+}
 
 #image{
   display:block;
@@ -44,26 +49,32 @@ p{
 }
 #nav_list a{
     color:white;
-    background-color: black
-    font-weight: 600;
+    background-color: black;
+    font-weight: bold;
+    font-size:18px;
     text-align: center;
     text-decoration:none;
     padding: 20px 40px;
 }
-a:hover{
+#nav_list a:hover{
     color:black;
     background-color: darkgrey;
+    border-radius: 15px;
 }
 
 #img-caption{
   text-align:center;
 }
 #nav_bar{
+    width:100%;
+    top: 0;
     display: block;
     padding-left: auto;
     padding-right: auto;
     padding:5px;
     background-color:black; 
+    position: fixed;
+    
 }
 #nav_list{
    
@@ -72,6 +83,7 @@ a:hover{
 li{
     display: inline;
     list-style-type:none;
+    padding:0px 20px 0px 20px; 
 }
 
 .active{
@@ -85,4 +97,30 @@ h2{
     text-align: center;
     padding:20px;
     margin:0px;
+}
+
+/*Image*/
+#opacity_image{
+    display:grid;
+    grid-column: auto;
+    grid-row: auto;
+    grid-template-areas: 
+        "image1 image2"
+        "image3 image4";
+}
+#imag1{
+    grid-area: image1;
+    
+}
+#imag2{
+    grid-area: image2;
+    
+}
+#imag3{
+    grid-area: image3;
+    
+}
+#imag4{
+    grid-area: image4;
+    
 }
