@@ -99,18 +99,33 @@ h2{
     margin:0px;
 }
 
+/*About Section*/
+#about{
+    height:auto;
+    width:auto;
+    
+}
 /*Image*/
 #opacity_image{
     display:grid;
-    grid-column: auto;
-    grid-row: auto;
+    grid-column: 50px 50px;
+    grid-row: 50px 50px;
     grid-template-areas: 
         "image1 image2"
         "image3 image4";
+    justify-items:stretch;
+    align-items: stretch;
+    justify-content: center;
+    align-content: center;
+    grid-gap: 10px;
+    
+}
+.img1{
+    width:40vw;
+    height:40vh;
 }
 #imag1{
     grid-area: image1;
-    
 }
 #imag2{
     grid-area: image2;
@@ -123,4 +138,7 @@ h2{
 #imag4{
     grid-area: image4;
     
+}
+#opacity_image span{
+    display: block;
 }
