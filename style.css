@@ -1,0 +1,173 @@
+body{
+    text-align: center;
+    background-color:#e5e6e8;
+    margin:0px;
+    padding:0px;
+}
+#main{
+    margin-top:80px;
+    border-radius:12px;
+}
+#main_title{
+    
+}
+#title{
+  text-align:center;
+  font-size:50px;
+  margin:10px;
+  
+}
+
+p{
+  text-align:center;
+  font-size:15px;
+  color:#575757;
+  padding:0px 0px 8px 0px;
+  margin:0px;
+}
+#steve_jobs{
+  text-decoration: none;
+  color: #575757;
+    
+}
+
+#image{
+  display:block;
+  max-width:100%;
+  height:auto;
+  margin-left:auto;
+  margin-right:auto;
+}
+@media (min-width:800px){
+  #img-caption{
+  text-align:center;
+  width:815px;
+  margin-left:auto;
+  margin-right:auto;
+  }
+}
+#nav_list{
+    padding: 0px;
+}
+#nav_list a{
+    color:white;
+    background-color: black;
+    font-weight: bold;
+    font-size:18px;
+    text-align: center;
+    text-decoration:none;
+    padding: 20px 40px;
+}
+#nav_list a:hover{
+    color:black;
+    background-color: darkgrey;
+    border-radius: 15px;
+}
+
+#img-caption{
+  text-align:center;
+}
+#nav_bar{
+    width:100%;
+    top: 0;
+    display: block;
+    padding:10px;
+    margin-left:auto;
+    margin-right:auto; 
+    background-color:black; 
+    position: fixed;
+    
+}
+#nav_list{
+   
+
+}
+li{
+    display: inline;
+    list-style-type:none;
+    padding:0px 20px 0px 20px; 
+}
+
+.active{
+    background-color:white;
+    color:white;
+}
+
+h2{
+    background-color: black;
+    color:white;
+    text-align: center;
+    padding:20px;
+    margin:0px;
+}
+
+/*About Section*/
+#about{
+    height:auto;
+    width:auto;
+    
+}
+/*Image*/
+#opacity_image{
+    display:grid;
+    grid-template-columns:50% 50%;
+    grid-template-rows: 50% 50%;
+    grid-template-areas: 
+        "image1 image2"
+        "image3 image4";
+    justify-items:stretch;
+    align-items: stretch;
+    justify-content:center;
+    align-content: center;
+    margin:30px 30px 30px 30px;
+    grid-gap:20px;
+    
+}
+.img1{
+    width:100%;
+    height:100%;
+    max-width: 100%;
+    border-radius:20px;
+    border:5px solid white;
+}
+figure span{
+    position:relative;
+    top:-67%;
+    left:1%;
+    font-size:20px;
+    font-weight:bold;
+    margin:0px;
+    padding:0px;
+    display:none;
+    
+}
+#imag1{
+    grid-area: image1;
+    padding: 0px;
+    margin: 0px;
+}
+#imag1:hover{
+    opacity: .2;
+}
+#imag1:hover #span1{
+    display:inline;
+}
+#imag2{
+    grid-area: image2;
+    margin: 0px;
+    padding: 0px;
+    
+}
+#imag3{
+    grid-area: image3;
+    padding:0px;
+    margin:0px;
+    
+}
+#imag4{
+    grid-area: image4;
+    padding:0px;
+    margin:0px;
+    
+}
+
