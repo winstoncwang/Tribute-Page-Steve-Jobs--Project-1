@@ -41,3 +41,9 @@ Aims:
 -Image rollover needs to be improved.
 
 ---------------------------------------------------
+Version 0.0.4
+Finished timeline section
+
+Aims:
+-Need a resonable "quotes" design
+-Improve "about" section
