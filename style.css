@@ -8,35 +8,23 @@ body{
     margin-top:80px;
     border-radius:12px;
 }
-
+#main_title{
+    
+}
 #title{
   text-align:center;
   font-size:50px;
   margin:10px;
   
 }
-#timeline{
-    margin:5vw 0px;
-    padding:0px;
-}
-#title p{
-    text-align:center;
-    font-size:15px;
-    color:#575757;
-    padding:0px 0px 8px 0px;
-    margin:0px;
-    width:140vw;
-}
-#timeline p{
-    margin-left:auto;
-    margin-right:auto;
-    padding-bottom:10px;
-    text-align:left;
-    width:85vw;
-    height:auto;
-}
 
-
+p{
+  text-align:center;
+  font-size:15px;
+  color:#575757;
+  padding:0px 0px 8px 0px;
+  margin:0px;
+}
 #steve_jobs{
   text-decoration: none;
   color: #575757;
@@ -50,31 +38,22 @@ body{
   margin-left:auto;
   margin-right:auto;
 }
-#image_fig img{
-    width:120vw;
-}
-
-@media (min-width:850px){
+@media (min-width:800px){
   #img-caption{
   text-align:center;
-  width:90vw;
+  width:815px;
   margin-left:auto;
   margin-right:auto;
   }
 }
-@media (max-width:576px){
-    #nav_list a{
-        padding:20px 0px;
-    }
-}
 #nav_list{
-    padding: 7px 0px;
+    padding: 0px;
 }
 #nav_list a{
     color:white;
     background-color: black;
     font-weight: bold;
-    font-size:20px;
+    font-size:18px;
     text-align: center;
     text-decoration:none;
     padding: 20px 40px;
@@ -82,7 +61,7 @@ body{
 #nav_list a:hover{
     color:black;
     background-color: darkgrey;
-    border-radius: 5px;
+    border-radius: 15px;
 }
 
 #img-caption{
@@ -95,12 +74,15 @@ body{
     padding:10px;
     margin-left:auto;
     margin-right:auto; 
-    padding:0px;
     background-color:black; 
     position: fixed;
     
 }
-#nav_list li{
+#nav_list{
+   
+
+}
+li{
     display: inline;
     list-style-type:none;
     padding:0px 20px 0px 20px; 
