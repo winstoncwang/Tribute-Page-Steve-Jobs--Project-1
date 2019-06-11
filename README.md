@@ -47,3 +47,13 @@ Finished timeline section
 Aims:
 -Need a resonable "quotes" design
 -Improve "about" section
+
+---------------------------------------------------
+Version 0.0.4.1
+Basic rollover effect
+
+Issue:
+-Responsive navbar design
+-Famous quote container
+
+---------------------------------------------------
