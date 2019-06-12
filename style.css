@@ -4,6 +4,13 @@ body{
     margin:0px;
     padding:0px;
 }
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:greenyellow !important;
+}
 #main{
     margin-top:80px;
     border-radius:12px;
@@ -215,7 +222,7 @@ h2{
 }
 /*Hover(Rollover)*/
 #imag1:hover {
-    background:transparent;
+    background:rgba(0,0,0,0.2);
 }
 #imag1:hover span{
     display:block;
@@ -251,3 +258,47 @@ h2{
     margin: 50px 50px auto;
 /*    margin-bottom:50px;*/
 }
+/*Footer*/
+#footer{
+    padding:0px;
+    margin:0px;
+    background-color:black;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:1fr 1fr;
+    color:white;    
+}
+#footer-nav-container {
+    grid-column:1/4;
+    grid-row:1/2;
+}
+#footer-nav-container a{
+    display:block;
+    margin:4px 0px;
+}
+#bottom-footer{
+    grid-column:1/4;
+    grid-row:2/3;
+    padding:14px;
+    margin:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+}
+#bottom-footer a{
+    padding:0px 40px;
+    text-decoration:none;
+    color:white;
+    
+}
+#footer span{
+    grid-column:3/4;
+    grid-row:2/3;
+    font-size:14px;
+    margin-left:auto;
+    margin-top:auto;
+    margin-right:10px;
+    
+}
+
