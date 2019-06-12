@@ -63,15 +63,14 @@ a:hover{
 
 @media (min-width:850px){
   #img-caption{
-  text-align:center;
   width:90vw;
   margin-left:auto;
   margin-right:auto;
   }
 }
-@media (max-width:576px){
-    #nav_list a{
-        padding:20px 0px;
+@media (max-width:580px){
+    #nav_bar li{
+        display:block !important;
     }
 }
 #nav_list{
@@ -87,7 +86,7 @@ a:hover{
     padding: 20px 40px;
 }
 #nav_list a:hover{
-    color:black;
+    color:black !important;
     background-color: darkgrey;
     border-radius: 5px;
 }
@@ -113,7 +112,7 @@ a:hover{
     padding:0px 20px 0px 20px; 
 }
 
-.active{
+ a .active{
     background-color:white;
     color:white;
 }
@@ -147,10 +146,6 @@ h2{
     align-content: center;
     margin:30px 50px;    
 }
-@media (min-width:700px){
-    
-}
-
 .img1{
     width:80%;
     height:80%;
@@ -256,7 +251,7 @@ h2{
     text-align:left;
     padding:0px;
     margin: 50px 50px auto;
-/*    margin-bottom:50px;*/
+    margin-bottom:50px;
 }
 /*Footer*/
 #footer{
@@ -271,6 +266,7 @@ h2{
 #footer-nav-container {
     grid-column:1/4;
     grid-row:1/2;
+    margin-top:20px;
 }
 #footer-nav-container a{
     display:block;
@@ -290,15 +286,12 @@ h2{
     padding:0px 40px;
     text-decoration:none;
     color:white;
-    
 }
 #footer span{
     grid-column:3/4;
     grid-row:2/3;
+    align-self: 
     font-size:14px;
-    margin-left:auto;
-    margin-top:auto;
-    margin-right:10px;
-    
+    place-self:end end;    
 }
 
