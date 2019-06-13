@@ -89,6 +89,7 @@ a:hover{
     color:black !important;
     background-color: darkgrey;
     border-radius: 5px;
+    text-decoration:underline;
 }
 
 #img-caption{
@@ -260,13 +261,15 @@ h2{
     background-color:black;
     display:grid;
     grid-template-columns:1fr 1fr 1fr;
-    grid-template-rows:1fr 1fr;
+    grid-template-rows:152px 60px 50px 60px;
     color:white;    
 }
 #footer-nav-container {
     grid-column:1/4;
     grid-row:1/2;
-    margin-top:20px;
+    padding:20px 0px;
+    border-top: 0.5px solid grey;
+    
 }
 #footer-nav-container a{
     display:block;
@@ -281,17 +284,27 @@ h2{
     flex-direction:row;
     justify-content:center;
     align-items:center;
+    border-bottom:0.5px solid grey;
 }
 #bottom-footer a{
-    padding:0px 40px;
+    padding: 0 16vw ;
     text-decoration:none;
     color:white;
 }
 #footer span{
     grid-column:3/4;
-    grid-row:2/3;
-    align-self: 
+    grid-row:4/5; 
     font-size:14px;
-    place-self:end end;    
+    place-self:end center;    
 }
-
+#footer-icon{
+    grid-column:1/4;
+    grid-row:3/4;
+}
+#social-icon{
+    grid-column:1/4;
+    grid-row:3/4;
+    height:40px;
+    width:40px;
+    margin:0 auto;
+}
