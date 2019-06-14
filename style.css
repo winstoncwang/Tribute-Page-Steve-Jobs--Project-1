@@ -4,27 +4,46 @@ body{
     margin:0px;
     padding:0px;
 }
+a{
+    text-decoration:none;
+    color:white;
+}
+a:hover{
+    color:greenyellow !important;
+}
 #main{
     margin-top:80px;
     border-radius:12px;
 }
-#main_title{
-    
-}
+
 #title{
   text-align:center;
   font-size:50px;
   margin:10px;
   
 }
-
-p{
-  text-align:center;
-  font-size:15px;
-  color:#575757;
-  padding:0px 0px 8px 0px;
-  margin:0px;
+#timeline{
+    margin:5vw 0px;
+    padding:0px;
 }
+#title p{
+    text-align:center;
+    font-size:15px;
+    color:#575757;
+    padding:0px 0px 8px 0px;
+    margin:0px;
+    width:140vw;
+}
+#timeline p{
+    margin-left:auto;
+    margin-right:auto;
+    padding-bottom:10px;
+    text-align:left;
+    width:85vw;
+    height:auto;
+}
+
+
 #steve_jobs{
   text-decoration: none;
   color: #575757;
@@ -38,30 +57,55 @@ p{
   margin-left:auto;
   margin-right:auto;
 }
-@media (min-width:800px){
+#image_fig img{
+    width:120vw;
+}
+
+@media (min-width:850px){
   #img-caption{
-  text-align:center;
-  width:815px;
+  width:90vw;
   margin-left:auto;
   margin-right:auto;
   }
 }
+
 #nav_list{
-    padding: 0px;
+    padding: 7px 0px;
 }
 #nav_list a{
     color:white;
     background-color: black;
     font-weight: bold;
-    font-size:18px;
+    font-size:20px;
     text-align: center;
     text-decoration:none;
     padding: 20px 40px;
 }
 #nav_list a:hover{
-    color:black;
+    color:black !important;
     background-color: darkgrey;
-    border-radius: 15px;
+    border-radius: 5px;
+    text-decoration:underline;
+}
+@media (max-width:580px){
+    #nav_bar li{
+        display:block !important;
+    }
+    #nav_bar a{
+        padding:5px;
+        margin:0px auto;
+        font-size:20px;
+    }
+    #nav_bar li{
+        height:30px;
+    }
+    #main{
+        margin-top:100px;
+    }
+    #nav_list{
+        padding:0px;
+        margin:10px 0px auto;
+    }
 }
 
 #img-caption{
@@ -74,21 +118,18 @@ p{
     padding:10px;
     margin-left:auto;
     margin-right:auto; 
+    padding:0px;
     background-color:black; 
     position: fixed;
     
 }
-#nav_list{
-   
-
-}
-li{
+#nav_list li{
     display: inline;
     list-style-type:none;
     padding:0px 20px 0px 20px; 
 }
 
-.active{
+ a .active{
     background-color:white;
     color:white;
 }
@@ -110,6 +151,7 @@ h2{
 /*Image*/
 #opacity_image{
     display:grid;
+    height:60vh;
     grid-template-columns:50% 50%;
     grid-template-rows: 50% 50%;
     grid-template-areas: 
@@ -119,55 +161,166 @@ h2{
     align-items: stretch;
     justify-content:center;
     align-content: center;
-    margin:30px 30px 30px 30px;
-    grid-gap:20px;
-    
+    margin:30px 50px;    
 }
 .img1{
-    width:100%;
-    height:100%;
+    width:80%;
+    height:80%;
     max-width: 100%;
     border-radius:20px;
     border:5px solid white;
-}
-figure span{
-    position:relative;
-    top:-67%;
-    left:1%;
-    font-size:20px;
-    font-weight:bold;
-    margin:0px;
-    padding:0px;
-    display:none;
     
 }
+#opacity_image span{
+    font-size: 22px;
+    font-weight:bold;
+    text-align:center;
+    display:none;
+}
+
 #imag1{
     grid-area: image1;
-    padding: 0px;
+    padding:0px;
     margin: 0px;
+    background-image:url(https://cdn-images-1.medium.com/max/1600/1*zmiotw4S46of3d6zidM8Rw.jpeg);
+    background-repeat: no-repeat;
+    background-size:100% 100%;
+    border:5px solid white;
+    border-radius: 10px;
+    display:flex;
+    flex-direction: column;
+    align-items: center;
+    justify-content:center;
 }
-#imag1:hover{
-    opacity: .2;
-}
-#imag1:hover #span1{
-    display:inline;
-}
+
 #imag2{
     grid-area: image2;
     margin: 0px;
     padding: 0px;
+    background-image:url(https://tse1.mm.bing.net/th?id=OIP.P9MU_3nO4Y69tlHVlu07fQHaEK);
+    background-size:100% 100%;
+    border:5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 #imag3{
     grid-area: image3;
     padding:0px;
     margin:0px;
+    background-image:url(https://i.guim.co.uk/img/static/sys-images/Guardian/Pix/pictures/2015/6/23/1435067185842/7a64f4e8-21a6-4311-add3-978aaf74afdb-2060x1236.jpeg?width=645&quality=45&auto=format&fit=max&dpr=2&s=abb57e301ba472e6df0452c94d591bb8);
+    background-size:100% 100%;
+    border:5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
 #imag4{
     grid-area: image4;
     padding:0px;
     margin:0px;
+    background-image: url(https://i.pinimg.com/474x/e7/45/d9/e745d9c6f6df504613b3e02324a8647f--steve-jobs-book-steve-jobs-quotes.jpg);
+    background-size:100% 100%;
+    border:5px solid white;
+    border-radius: 10px;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
     
 }
+/*Hover(Rollover)*/
+#imag1:hover {
+    background:rgba(0,0,0,0.2);
+}
+#imag1:hover span{
+    display:block;
+}
+#imag2:hover {
+    background:rgba(0,0,0,0.2);
+}
+#imag2:hover span{
+    display:block;
+}
+#imag3:hover {
+    background:rgba(0,0,0,0.2);
+}
+#imag3:hover span{
+    display:block;
+}
+#imag4:hover {
+    background:rgba(0,0,0,0.2);
+}
+#imag4:hover span{
+    display:block;
+}
 
+/*QUOTES*/
+
+#grid-container{
+    display:flex;
+    flex-direction:column;
+    justify-content: center;
+    align-items: center;
+    text-align:left;
+    padding:0px;
+    margin: 50px 50px auto;
+    margin-bottom:50px;
+}
+/*Footer*/
+#footer{
+    padding:0px;
+    margin:0px;
+    background-color:black;
+    display:grid;
+    grid-template-columns:1fr 1fr 1fr;
+    grid-template-rows:152px 60px 50px 60px;
+    color:white;    
+}
+#footer-nav-container {
+    grid-column:1/4;
+    grid-row:1/2;
+    padding:20px 0px;
+    border-top: 0.5px solid grey;
+    
+}
+#footer-nav-container a{
+    display:block;
+    margin:4px 0px;
+}
+#bottom-footer{
+    grid-column:1/4;
+    grid-row:2/3;
+    padding:14px;
+    margin:0px;
+    display:flex;
+    flex-direction:row;
+    justify-content:center;
+    align-items:center;
+    border-bottom:0.5px solid grey;
+}
+#bottom-footer a{
+    padding: 0 16vw ;
+    text-decoration:none;
+    color:white;
+}
+#footer span{
+    grid-column:3/4;
+    grid-row:4/5; 
+    font-size:14px;
+    place-self:end center;    
+}
+#footer-icon{
+    grid-column:1/4;
+    grid-row:3/4;
+}
+#social-icon{
+    grid-column:1/4;
+    grid-row:3/4;
+    height:40px;
+    width:40px;
+    margin:0 auto;
+}

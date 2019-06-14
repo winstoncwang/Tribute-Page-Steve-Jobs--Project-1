@@ -41,3 +41,46 @@ Aims:
 -Image rollover needs to be improved.
 
 ---------------------------------------------------
+Version 0.0.4
+Finished timeline section
+
+Aims:
+-Need a resonable "quotes" design
+-Improve "about" section
+
+---------------------------------------------------
+Version 0.0.4.1
+Basic rollover effect
+
+Issue:
+-Responsive navbar design
+-Famous quote container
+
+---------------------------------------------------
+Version 0.0.4.2
+Updated footer
+
+To-do:
+-Apply social media icon.
+
+---------------------------------------------------
+Version 0.0.4.3
+Update media query
+
+---------------------------------------------------
+Version 0.0.4.4
+Social media icon added.
+Updated footer section
+
+Future improvement:
+improve the responsiveness of the nav bar.
+change the dimensions of the images within the about section.
+
+---------------------------------------------------
+Version 0.0.5
+Responsive nav bar complete
+
+To-do:
+Responsive image for the about section
+
+----------------------------------------------------
